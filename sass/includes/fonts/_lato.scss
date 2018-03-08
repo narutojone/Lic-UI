@@ -1,0 +1,68 @@
+//-----------------------------------------------------------------------------
+// Fonts - Lato
+
+// Light 300
+@font-face {
+    font-family: "Lato";
+    src: url("#{$lato-path}/LatoLight/LatoLight.eot");
+    src: url("#{$lato-path}/LatoLight/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("#{$lato-path}/LatoLight/LatoLight.woff") format("woff"),
+    url("#{$lato-path}/LatoLight/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+// Light italic 300
+@font-face {
+    font-family: "Lato";
+    src: url("#{$lato-path}/LatoLightItalic/LatoLightItalic.eot");
+    src: url("#{$lato-path}/LatoLightItalic/LatoLightItalic.eot?#iefix")format("embedded-opentype"),
+    url("#{$lato-path}/LatoLightItalic/LatoLightItalic.woff") format("woff"),
+    url("#{$lato-path}/LatoLightItalic/LatoLightItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 300;
+}
+
+// Regular 400
+@font-face {
+    font-family: "Lato";
+    src: url("#{$lato-path}/LatoRegular/LatoRegular.eot");
+    src: url("#{$lato-path}/LatoRegular/LatoRegular.eot?#iefix")format("embedded-opentype"),
+    url("#{$lato-path}/LatoRegular/LatoRegular.woff") format("woff"),
+    url("#{$lato-path}/LatoRegular/LatoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+// Regular italic 400
+@font-face {
+    font-family: "Lato";
+    src: url("#{$lato-path}/LatoItalic/LatoItalic.eot");
+    src: url("#{$lato-path}/LatoItalic/LatoItalic.eot?#iefix")format("embedded-opentype"),
+    url("#{$lato-path}/LatoItalic/LatoItalic.woff") format("woff"),
+    url("#{$lato-path}/LatoItalic/LatoItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: normal;
+}
+
+// Bold 800
+@font-face {
+    font-family: "Lato";
+    src: url("#{$lato-path}/LatoBold/LatoBold.eot");
+    src: url("#{$lato-path}/LatoBold/LatoBold.eot?#iefix")format("embedded-opentype"),
+    url("#{$lato-path}/LatoBold/LatoBold.woff") format("woff"),
+    url("#{$lato-path}/LatoBold/LatoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 800;
+}
+
+// Bold italic 800
+@font-face {
+    font-family: "Lato";
+    src: url("#{$lato-path}/LatoBoldItalic/LatoBoldItalic.eot");
+    src: url("#{$lato-path}/LatoBoldItalic/LatoBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("#{$lato-path}/LatoBoldItalic/LatoBoldItalic.woff") format("woff"),
+    url("#{$lato-path}/LatoBoldItalic/LatoBoldItalic.ttf") format("truetype");
+    font-style: italic;
+    font-weight: 800;
+}

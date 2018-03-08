@@ -1,0 +1,115 @@
+---
+layout: application
+title: BOSS License Manager
+section: settings
+---
+
+<div class="am-content">
+  <div id="am-navbar-collapse" class="second-level-menu collapse navbar-collapse">
+    <ul class="list-inline">
+      <li>
+        <a href="settings-email-header-footer.html"><i class="icon fa fa-code"></i><span>Header and Footer</span></a>
+      </li>
+      <li class="active">
+        <a href="settings-notifications.html"><i class="s7-bell"></i><span>Notifications</span></a>
+      </li>
+    </ul>
+  </div>
+  <div class="page-head">
+    <div class="caption">
+      <div class="title-icon">
+        <i class="icon s7-bell"></i>
+      </div>
+      <div class="title">
+        <h2>Notifications</h2>
+      </div>
+    </div>
+    <div class="tools"></div>
+  </div>
+  <div class="main-content">
+    <div class="content-block">
+      <div class="content">
+        <div class="content-heading">
+          <div class="caption">
+            <div class="title">
+              <h4>Edit Notification "User welcome"</h4>
+            </div>
+          </div>
+          <div class="tools"></div>
+        </div>
+        <div class="content-body">
+          <form class="form-horizontal">
+            <div class="content-form">
+              <div class="form-group">
+                <div class="col-xs-12 col-sm-3">
+                  <label class="control-label">
+                    <span class="required" title="" data-tooltip="tooltip" data-placement="right" data-original-title="Required">*</span>
+                    Name
+                  </label>
+                </div>
+                <div class="col-xs-12 col-sm-9">
+                  <input type="text" class="form-control" value="User welcome" />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-12 col-sm-3"></div>
+                <div class="col-xs-12 col-sm-9">
+                  <a id="show-placeholders-button" class="btn btn-sm btn-primary">
+                    Insert placeholders <i class="fa fa-angle-double-right ml-5"></i>
+                  </a>
+                  <div id="placeholder-list" class="placeholder-list">
+                    <small>Click on the relevant place in the subject or text field and click on a placeholder to add to the subject or text field. Placeholders will get converted into the appropriate data.</small>
+                    <div>
+                      <h5>E-mail Recipient</h5>
+                      <input class="btn btn-default btn-sm" value="Customer Name" data-placeholder="{{recipient.customer_name}}" type="button">
+                      <input class="btn btn-default btn-sm" value="Primary Contact First name" data-placeholder="{{recipient.first_name}}" type="button">
+                      <input class="btn btn-default btn-sm" value="Primary Contact Last name" data-placeholder="{{recipient.last_name}}" type="button">
+                      <input class="btn btn-default btn-sm" value="Passport reset link" data-placeholder="{{recipient.passport_reset}}" type="button">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-12 col-sm-3">
+                  <label class="control-label">
+                    <span class="required" title="" data-tooltip="tooltip" data-placement="right" data-original-title="Required">*</span>
+                    E-mail subject
+                  </label>
+                </div>
+                <div class="col-xs-12 col-sm-9">
+                  <input type="text" class="form-control" value="Welcome to BSC License Manager!" />
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-xs-12 col-sm-3">
+                  <label class="control-label">
+                    <span class="required" title="" data-tooltip="tooltip" data-placement="right" data-original-title="Required">*</span>
+                    E-mail body
+                  </label>
+                </div>
+                <div class="col-xs-12 col-sm-9">
+                  <textarea class="form-control summernote">
+Hello &#123;&#123;recipient.first_name&#125;&#125;,<br />
+User account has been created for you at BSC License Manager.<br />
+Your username in the system is &#123;&#123;recipient.customer_name&#125;&#125;<br />
+You can create a password for your account at the following link:<br />
+&#123;&#123;recipient.create_password_url&#125;&#125;<br />
+Having a password enables you to keep track of your tickets, browse the knowledge base and more.
+                  </textarea>
+                </div>
+              </div>
+            </div>
+            <div class="content-form-footer">
+              <div class="form-group">
+                <div class="col-xs-12 col-sm-9 col-sm-offset-3">
+                  <a href="#" class="btn btn-primary">Save</a>
+                  <a href="#" class="btn btn-default">Cancel</a>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

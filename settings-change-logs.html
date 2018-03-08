@@ -1,0 +1,439 @@
+---
+layout: application
+title: BOSS811
+section: settings
+---
+
+<div class="am-content">
+  <div id="am-navbar-collapse" class="second-level-menu collapse navbar-collapse">
+    <ul class="list-inline">
+      <li>
+        <a href="settings-one-call-center.html"><i class="icon s7-call"></i><span>One Call Center</span></a>
+      </li>
+      <li>
+        <a href="settings-response-codes.html"><i class="icon s7-target"></i><span>Response Codes</span></a>
+      </li>
+      <!--<li>
+        <a href="settings-utility-codes.html"><i class="icon s7-home"></i><span>Utility Codes</span></a>
+      </li>-->
+      <li>
+        <a href="settings-map-services.html"><i class="icon s7-global"></i><span>Map Services</span></a>
+      </li>
+      <li>
+        <a href="settings-excavators.html"><i class="icon s7-car"></i><span>Excavators</span></a>
+      </li>
+      <li>
+        <a href="settings-routing.html"><i class="icon s7-shuffle"></i><span>Routing</span></a>
+      </li>
+      <li>
+        <a href="settings-tags.html"><i class="icon s7-ticket"></i><span>Tags</span></a>
+      </li>
+      <li>
+        <a href="settings-custom-fields.html"><i class="icon s7-menu"></i><span>Custom Fields</span></a>
+      </li>
+      <li class="active">
+        <a href="settings-change-logs.html"><i class="icon s7-copy-file"></i><span>Event Logs</span></a>
+      </li>
+    </ul>
+  </div>
+  <div class="page-head">
+    <div class="caption">
+      <div class="title-icon">
+        <i class="icon s7-copy-file"></i>
+      </div>
+      <div class="title">
+        <h2>Event Logs</h2>
+        <ol class="breadcrumb">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="settings.html">Settings</a></li>
+          <li class="active">Event Logs</li>
+        </ol>
+      </div>
+    </div>
+    <div class="tools">
+      <a class="btn btn-circle btn-icon-only btn-warning btn-settings" href="#" data-tooltip="tooltip" data-placement="bottom" title="Settings">
+        <i class="md md-settings"></i>
+      </a>
+    </div>
+  </div>
+  <div class="main-content">
+    <div class="content-block content-block-warning content-block-settings">
+      <div class="content">
+        <div class="content-body settings-block">
+          <div class="form-inline">
+            <div class="form-group">
+              <label class="control-label">Event Logs per page:</label>
+            </div>
+            <div class="form-group">
+              <select class="form-control form-control-sm" name="">
+                <option selected="selected" value="15">15</option>
+                <option value="30">30</option>
+                <option value="50">50</option>
+                <option value="75">75</option>
+                <option value="100">100</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-block content-block-primary">
+      <div class="content">
+        <div class="content-body search-block">
+          <form class="form-search form-search-multiple" method="" action="">
+            <div class="multiselect-block input-group-pull-left input-group-pull-left-sm">
+              <select class="form-control form-control-multiple" name="" multiple data-placeholder="Assignee">
+                <option value="1">Kelly Taylor</option>
+                <option value="2">Piter Burk</option>
+                <option value="3">Alice Carlton</option>
+              </select>
+            </div>
+            <div class="multiselect-block input-group-pull-left input-group-pull-left-sm">
+              <select class="form-control form-control-multiple" name="" multiple data-placeholder="Action">
+                <option value="s-2">Ticket Change</option>
+                <option value="s-3">Ticket Assigned</option>
+                <option value="s-4">Ticket Reassigned</option>
+                <option value="s-5">Ticket Unassigned</option>
+                <option value="s-6">Tag Updated</option>
+                <option value="s-7">Role Updated</option>
+                <option value="s-8">One Call Center Updated</option>
+                <option value="s-9">Response Code Updated</option>
+                <option value="s-10">Map Service Updated</option>
+                <option value="s-11">Routing Rule Updated</option>
+                <option value="s-12">Custom Field Updated</option>
+              </select>
+            </div>
+            <div class="form-group form-group-search">
+                <div class="input-group">
+                  <input class="form-control" type="text" placeholder="Search...">
+                  <span class="input-group-btn">
+                    <button class="btn btn-primary" type="button">Go!</button>
+                  </span>
+                </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="content-block">
+      <div class="content">
+        <div class="content-heading">
+          <div class="caption">
+            <div class="title">
+              <h4><span>76 results</span></h4>
+            </div>
+          </div>
+          <div class="tools"></div>
+        </div>
+        <div class="content-body">
+          <table class="table-no-pagination table-change-logs">
+            <thead>
+              <tr>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-primary fa fa-ticket" data-tooltip data-placement="right" title="Ticket Change"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Peter Burke</a> changed the status on ticket <a href="ticket.html">55487-222-006</a> from "Incoming" to "Closed" 
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">8 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-info zmdi zmdi-account-box" data-tooltip data-placement="right" title="Ticket Assigned"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Kelly Taylor</a> assigned ticket <a href="ticket.html">11205-222-006</a> to <a href="user.html">Peter Burke</a>
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">8 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-info zmdi zmdi-assignment-account" data-tooltip data-placement="right" title="Ticket Reassigned"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Jonh Doe</a> reassigned ticket <a href="ticket.html">11205-222-006</a> from <a href="user.html">Peter Burke</a> to <a href="coming-soon.html">Kelly Taylor</a>
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">8 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-alt zmdi zmdi-assignment-return" data-tooltip data-placement="right" title="Ticket Unassigned"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Jonh Doe</a> changed ticket <a href="ticket.html">11205-222-006</a> assignee from <a href="user.html">Kelly Taylor</a> to None
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">8 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-success fa fa-tags" data-tooltip data-placement="right" title="Tag Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Peter Burke</a> added tag "Sewer"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-warning fa fa-tags" data-tooltip data-placement="right" title="Tag Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Peter Burke</a> updated tag "Sewer"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-danger fa fa-tags" data-tooltip data-placement="right" title="Tag Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Jonh Doe</a> deleted tag "Sewer"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-success fa fa-lock" data-tooltip data-placement="right" title="Role Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Peter Burke</a> added role "Manager"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-warning fa fa-lock" data-tooltip data-placement="right" title="Role Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Peter Burke</a> updated role "Manager"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-danger fa fa-lock" data-tooltip data-placement="right" title="Role Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Jonh Doe</a> deleted role "Manager"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <!--<tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-success zmdi zmdi-account-box-phone" data-tooltip data-placement="right" title="One Call Center Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Jonh Doe</a> added One Call Center "Georgia 811"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-warning zmdi zmdi-account-box-phone" data-tooltip data-placement="right" title="One Call Center Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Jonh Doe</a> updated One Call Center "Georgia 811"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-warning fa fa-qrcode" data-tooltip data-placement="right" title="Response Code Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Jonh Doe</a> updated Response Code "1D - Marked" on One Call Center "Georgia 811"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-success fa fa-globe" data-tooltip data-placement="right" title="Map Service Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Peter Burke</a> added Map Service "KML URL - North KML Test" on One Call Center "Georgia 811"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-warning fa fa-globe" data-tooltip data-placement="right" title="Map Service Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Peter Burke</a> updated Map Service "KML URL - North KML Test" on One Call Center "Georgia 811"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-danger fa fa-globe" data-tooltip data-placement="right" title="Map Service Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Jonh Doe</a> deleted Map Service "KML URL - North KML Test" on One Call Center "Georgia 811"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-success ion-shuffle" data-tooltip data-placement="right" title="Routing Rule Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Peter Burke</a> added Routing Rule "Auto Close CATV Service Tickets" on One Call Center "Georgia 811"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-warning ion-shuffle" data-tooltip data-placement="right" title="Routing Rule Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Peter Burke</a> updated Routing Rule "Auto Close CATV Service Tickets" on One Call Center "Georgia 811"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-danger ion-shuffle" data-tooltip data-placement="right" title="Routing Rule Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Jonh Doe</a> deleted Routing Rule "Auto Close CATV Service Tickets" on One Call Center "Georgia 811"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-success fa fa-bars" data-tooltip data-placement="right" title="Custom Field Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Kelly Taylor</a> added Ticket Custom Field "Damage Reported"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-warning fa fa-bars" data-tooltip data-placement="right" title="Custom Field Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Kelly Taylor</a> updated Ticket Custom Field "Damage Reported"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <i class="icon-block icon-change-log icon-danger fa fa-bars" data-tooltip data-placement="right" title="Custom Field Updated"></i>
+                  <div class="info-block">
+                    <p> 
+                      <a href="user.html">Kelly Taylor</a> deleted Ticket Custom Field "Damage Reported"
+                    </p>
+                    <p> 
+                      <i class="zmdi zmdi-time"></i><span data-tooltip data-placement="top" title="03/05/2016 1:15 pm">3 hours ago</span> 
+                    </p>
+                  </div>
+                </td>
+              </tr>-->
+            </tbody>
+          </table>
+          <ul class="pagination">
+            <li class="previous"><a href="#" class="btn disabled"><i class="zmdi zmdi-chevron-left"></i></a></li>
+            <li class="active"><a href="#" class="btn">1</a></li>
+            <li class=""><a href="#" class="btn">2</a></li>
+            <li class=""><a href="#" class="btn">3</a></li>
+            <li class=""><a href="#" class="btn disabled">...</a></li>
+            <li class=""><a href="#" class="btn">8</a></li>
+            <li class=""><a href="#" class="btn">9</a></li>
+            <li class=""><a href="#" class="btn">10</a></li>
+            <li class="next"><a href="#" class="btn"><i class="zmdi zmdi-chevron-right"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
